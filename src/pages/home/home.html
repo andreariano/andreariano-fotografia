@@ -1,23 +1,31 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Andre Ariano
+      <img src="assets/img/logo-andreariano.png"/>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
   <ion-content class="card-background-page">
     <ion-card>
       <img src="assets/img/card-saopaolo.png"/>
-      <div class="card-title">São Paulo</div>
-      <div class="card-subtitle">41 Listings</div>
+      <div class="card-title">Casamentos</div>
+      <div class="card-subtitle">lorem ipsum dolor</div>
     </ion-card>
 
     <ion-card>
       <img src="assets/img/card-amsterdam.png"/>
-      <div class="card-title">Amsterdam</div>
-      <div class="card-subtitle">64 Listings</div>
+      <div class="card-title">Aniversários</div>
+      <div class="card-subtitle">Lorem ipsum dolor</div>
+    </ion-card>
+
+    <ion-card>
+      <button (click)="goToCategoryPage()">
+        <img src="assets/img/card-saopaolo.png"/>
+        <div class="card-title">Ensaios</div>
+        <div class="card-subtitle">Lorem ipsum dolor</div>
+      </button>
     </ion-card>
   </ion-content>
 </ion-content>
