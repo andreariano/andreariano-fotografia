@@ -6,13 +6,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { Category } from '../pages/category/category';
+import { CategoryTiles } from '../pages/category-tiles/category-tiles';
+import { CategorySlide } from '../pages/category-slide/category-slide';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    Category
+    CategoryTiles,
+    CategorySlide
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { Category } from '../pages/category/category';
   entryComponents: [
     MyApp,
     HomePage,
-    Category
+    CategoryTiles,
+    CategorySlide
   ],
   providers: [
     StatusBar,

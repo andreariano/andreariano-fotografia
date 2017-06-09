@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Category } from '../category/category';
+import { CategoryTiles } from '../category-tiles/category-tiles';
 
 @Component({
   selector: 'page-home',
@@ -13,6 +13,6 @@ export class HomePage {
   }
 
   goToCategoryPage() {
-    this.navCtrl.push(Category);
+    this.navCtrl.push(CategoryTiles);
   }
 }
