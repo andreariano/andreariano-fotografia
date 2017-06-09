@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [hidden]="isNavBarHidden" [ngClass]="navBarClass">
   <ion-navbar>
     <ion-title>
       <img src="assets/img/logo-andreariano.png"/>
@@ -7,4 +7,15 @@
 </ion-header>
 
 <ion-content>
+  <ion-slides (click)="toggleNavbar()">
+    <ion-slide>
+      <img src="assets/img/casamento-01.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/casamento-02.jpg"/>
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/casamento-03.jpg"/>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
