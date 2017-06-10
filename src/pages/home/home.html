@@ -3,28 +3,46 @@
     <ion-title>
       <img src="assets/img/logo-andreariano.png"/>
     </ion-title>
+    <!--<button ion-button icon-only (click)="presentPopover($event)">
+      <ion-icon name="more"></ion-icon>
+    </button>-->
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-content class="card-background-page">
+    <div class="page-title animated bounceIn">
+      <h3>Portfolio</h3>
+      <hr />
+    </div>
     <ion-card>
       <img src="assets/img/gestante-capa.jpg"/>
-      <div class="card-title">Gestante</div>
-      <div class="card-subtitle">lorem ipsum dolor</div>
+      <div class="card-title">
+        <span class="card-title-bg">
+          <label>Gestante</label>
+        </span>
+      </div>
     </ion-card>
 
     <ion-card>
       <img src="assets/img/moda-capa.jpg"/>
-      <div class="card-title">Moda</div>
-      <div class="card-subtitle">Lorem ipsum dolor</div>
+        <div class="card-title">
+          <span class="card-title-bg">
+            Moda
+          </span>
+        </div>
+      <!--<div class="card-subtitle">Lorem ipsum dolor</div>-->
     </ion-card>
 
     <ion-card>
       <button (click)="goToCategoryPage()">
         <img src="assets/img/casamento-capa.jpg"/>
-        <div class="card-title">Casamentos</div>
-        <div class="card-subtitle">Lorem ipsum dolor</div>
+        <div class="card-title">
+          <span class="card-title-bg">
+            Casamentos
+          </span>
+        </div>
+        <!--<div class="card-subtitle">Lorem ipsum dolor</div>-->
       </button>
     </ion-card>
   </ion-content>

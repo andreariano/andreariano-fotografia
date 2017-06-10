@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { CategorySlide } from '../category-slide/category-slide';
 
 @Component({
-  selector: 'page-category',
+  selector: 'page-category-tiles',
   templateUrl: 'category-tiles.html'
 })
 export class CategoryTiles {
