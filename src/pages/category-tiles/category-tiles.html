@@ -8,21 +8,21 @@
 
 <ion-content>
   <ion-content class="page-content">
-    <div class="page-title animated bounceIn">
-      <h3>Casamentos</h3>
+    <div class="page-title">
+      <h3>{{categoryName}}</h3>
       <hr />
     </div>
     <ion-grid>
       <ion-row>
-        <ion-col col-6 (click)="goToCategorySlidePage(1)">
+        <ion-col col-6 (tap)="goToCategorySlidePage(1)">
           <img src="assets/img/casamento-01.jpg"/>
         </ion-col>
-        <ion-col col-6 (click)="goToCategorySlidePage(2)">
+        <ion-col col-6 (tap)="goToCategorySlidePage(2)">
           <img src="assets/img/casamento-02.jpg"/>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col col-6 (click)="goToCategorySlidePage(3)">
+        <ion-col col-6 (tap)="goToCategorySlidePage(3)">
           <img src="assets/img/casamento-03.jpg"/>
         </ion-col>
         <ion-col col-6>

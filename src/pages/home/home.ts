@@ -12,7 +12,9 @@ export class HomePage {
 
   }
 
-  goToCategoryPage() {
-    this.navCtrl.push(CategoryTiles);
+  goToCategoryPage(categoryName: string) {
+    this.navCtrl.push(CategoryTiles, {
+      categoryName: categoryName
+    });
   }
 }
