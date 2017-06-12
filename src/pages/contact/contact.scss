@@ -1,0 +1,20 @@
+contact-page {
+    .contact-data {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        margin-top: 1em;
+
+        .logo-text {
+            letter-spacing: -0.1em;
+            h3{
+                margin-top: -0.8em;
+            }
+        }
+    }
+}
+

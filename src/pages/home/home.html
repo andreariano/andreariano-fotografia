@@ -1,11 +1,9 @@
 <ion-header>
-  <ion-navbar align-title="center">
+  <ion-navbar>
     <ion-title>
-      <img src="assets/img/logo-andreariano.png"/>
+      <a (tap)="gotoContact();">
+        <img src="assets/img/logo-andreariano.png"/></a>
     </ion-title>
-    <!--<button ion-button icon-only (click)="presentPopover($event)">
-      <ion-icon name="more"></ion-icon>
-    </button>-->
   </ion-navbar>
 </ion-header>
 
@@ -31,19 +29,20 @@
             Moda
           </span>
         </div>
-      <!--<div class="card-subtitle">Lorem ipsum dolor</div>-->
     </ion-card>
 
     <ion-card>
-      <button (tap)="goToCategoryPage('Casamentossss')">
+      <button (tap)="goToCategoryPage('Casamentos')">
         <img src="assets/img/casamento-capa.jpg"/>
         <div class="card-title">
           <span class="card-title-bg">
             Casamentos
           </span>
         </div>
-        <!--<div class="card-subtitle">Lorem ipsum dolor</div>-->
       </button>
     </ion-card>
+
+
+
   </ion-content>
 </ion-content>

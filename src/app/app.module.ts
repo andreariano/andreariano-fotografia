@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { CategoryTiles } from '../pages/category-tiles/category-tiles';
 import { CategorySlide } from '../pages/category-slide/category-slide';
+import { Contact } from '../pages/contact/contact';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     CategoryTiles,
-    CategorySlide
+    CategorySlide,
+    Contact
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { CategorySlide } from '../pages/category-slide/category-slide';
     MyApp,
     HomePage,
     CategoryTiles,
-    CategorySlide
+    CategorySlide,
+    Contact
   ],
   providers: [
     StatusBar,
